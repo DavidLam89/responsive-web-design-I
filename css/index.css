@@ -66,6 +66,10 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+.container {
+	max-width: 1024px;
+	margin: auto;
+}
 header {
 	height: 60px;
 	display: flex;
@@ -191,6 +195,9 @@ header a {
 		justify-content: center;
 		flex-direction: column;
 	}
+	.services-header-img {
+		margin-top: 50px;
+	}
 }
 
 @media (max-width: 500px) {
@@ -218,5 +225,8 @@ header a {
 	}
 	.columns div {
 		margin: 20px 0;
+	}
+	.services {
+		flex-direction: column;
 	}
 }
